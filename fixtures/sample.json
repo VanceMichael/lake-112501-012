@@ -1,5 +1,30 @@
 {
   "说明": "本地合成演练资料",
-  "业务对象": "主体删除请求在派生快照中的湖仓闭包",
-  "记录": []
+  "业务对象": "访问许可撤销后的数据产品传播屏障",
+  "记录": [
+    {
+      "dataset": "observations",
+      "partner": "lab-a",
+      "purpose": "study-1",
+      "grant": "g1",
+      "generation": 1,
+      "state": "有效"
+    },
+    {
+      "dataset": "features",
+      "partner": "lab-a",
+      "purpose": "study-1",
+      "grant": "g1",
+      "generation": 1,
+      "state": "派生"
+    },
+    {
+      "dataset": "observations",
+      "partner": "lab-b",
+      "purpose": "study-2",
+      "grant": "g2",
+      "generation": 1,
+      "state": "有效"
+    }
+  ]
 }
